@@ -1,0 +1,32 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+a {
+  color: #2b2b2b;
+}
+
+a:hover {
+  color:#2b2bb2;
+  transition: 0.3s;
+}
+
+.flex-container {
+  display: flex;
+   width: 200px;
+   justify-content: center;
+    align-items: center;
+     position: absolute; 
+     bottom: 0; 
+     height: 100px; 
+     background: blue;
+}
+
+img {
+  width: 50px;
+  height: 50px; 
+  border-radius: 100px; 
+  margin-right: 10px;
+}
